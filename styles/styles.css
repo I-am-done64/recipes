@@ -1,10 +1,10 @@
 body{
     margin: 0 auto;
-    background-color: rgb(164, 220, 236);
+    background-color: rgb(210, 212, 212);
     }
     .dropbtn {
         background-color: #04AA6D;
-        color: white;
+        color: rgb(0, 0, 0);
         padding: 16px;
         font-size: 16px;
         border: none;
@@ -24,7 +24,9 @@ body{
         z-index: 1;
       }
       
-    
+    a:link{
+      color: black;
+    }
       .dropdown-content a {
         color: black;
         padding: 12px 16px;
@@ -45,6 +47,8 @@ body{
         max-height: 400px;
     }
     
+
+
     .logo{width: 150px;}
     header{
         text-align-last: left;
